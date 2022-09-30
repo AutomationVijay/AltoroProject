@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Failed! Enter correct Credential]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful with Hello Admin User]]>
+    </line>
+    <line>
+      <![CDATA[Data Matched Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Message Displayed Thank You]]>
+    </line>
+    <line>
+      <![CDATA[Sign Off Sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-30T11:59:46 IST" name="Suite" finished-at="2022-09-30T12:00:03 IST" duration-ms="16577">
+    <groups>
+    </groups>
+    <test started-at="2022-09-30T11:59:46 IST" name="Test" finished-at="2022-09-30T12:00:03 IST" duration-ms="16577">
+      <class name="TestClass.TestAltoroWebsite">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:TestClass.TestAltoroWebsite@28f3b248]" started-at="2022-09-30T11:59:46 IST" name="OpenBrowser" finished-at="2022-09-30T11:59:50 IST" duration-ms="4339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="SignIn()[pri:0, instance:TestClass.TestAltoroWebsite@28f3b248]" started-at="2022-09-30T11:59:50 IST" name="SignIn" finished-at="2022-09-30T11:59:56 IST" duration-ms="5469" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Failed! Enter correct Credential]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful with Hello Admin User]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method signature="TestCaseId()[pri:0, instance:TestClass.TestAltoroWebsite@28f3b248]" started-at="2022-09-30T11:59:56 IST" name="TestCaseId" finished-at="2022-09-30T12:00:03 IST" duration-ms="6691" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Data Matched Successfull]]>
+            </line>
+            <line>
+              <![CDATA[Message Displayed Thank You]]>
+            </line>
+            <line>
+              <![CDATA[Sign Off Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCaseId -->
+      </class> <!-- TestClass.TestAltoroWebsite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
