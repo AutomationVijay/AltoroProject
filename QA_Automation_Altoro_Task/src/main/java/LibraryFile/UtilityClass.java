@@ -9,7 +9,7 @@ public class UtilityClass {
 
 	public static String getData(String key) throws IOException {
 		FileInputStream file = new FileInputStream(
-				"C:\\Users\\lenovo\\eclipse-workspace\\MvnProjectdemo\\PropertyFile.properties");
+				"PropertyFile.properties");
 		Properties prop = new Properties();
 		prop.load(file);
 		String value = prop.getProperty(key);
